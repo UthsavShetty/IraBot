@@ -1,0 +1,9 @@
+{
+  "id": "567b4fe8-9031-424c-9c0f-5278e109eb29",
+  "name": "contact_info",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

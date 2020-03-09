@@ -1,0 +1,9 @@
+{
+  "id": "c285881c-5d37-462e-9885-96dda5334227",
+  "name": "Social_Butterfly",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

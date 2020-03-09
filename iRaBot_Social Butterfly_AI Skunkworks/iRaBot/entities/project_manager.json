@@ -1,0 +1,9 @@
+{
+  "id": "28e0f17d-2831-4469-8cd9-cdaa7d7e2259",
+  "name": "project_manager",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

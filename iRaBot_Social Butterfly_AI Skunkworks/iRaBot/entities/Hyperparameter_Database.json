@@ -1,0 +1,9 @@
+{
+  "id": "3189054a-6d0c-4b8b-ac14-ca6c701dffff",
+  "name": "Hyperparameter_Database",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

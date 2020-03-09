@@ -1,0 +1,9 @@
+{
+  "id": "233fb6a1-49a5-4227-9326-22a40039e7e5",
+  "name": "skunkwork",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}
