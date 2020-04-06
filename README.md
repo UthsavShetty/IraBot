@@ -22,45 +22,66 @@ We compared a few opensource tools to build a chatbot before finalizing on Dialo
 Here are the metrics based on which we decided this model.
 
 1) Alexa 
+
 *Advantages :*
+
     Alexa is pretty straight forward to program and develop AI assistant applications with. 
     Applications can run on any platform. You have full control because you have to manage all of the interactions in code (context, session, required parameters, etc.)
+    
 *Disadvantages :*
+
     Every triggered intent requires a webhook call. 
     No development UI - you have to input your intent schema, utterances, slots and manage all of the relationships manually. 
     Relatively weak in terms of machine learning. Harder to develop with in comparison to **Dialogflow**
 
 2) Dialogflow
+
 *Advantages :*
+
     Smarter and can learn alternative phrases which can trigger intents and understand alternative entities.
     Allows you to manage context parameters through the UI. 
     Easily add entities by highlighting them in the sample utterances through the UI. 
-    Allows you to mark entities/parameters as required so the platform manages retrieving the entity/parameter values from the user without having to go to your business logic. 
+    Allows you to mark entities/parameters as required so the platform manages retrieving the entity/parameter values from the user         without having to go to your business logic. 
     
 *Disadvantages :*
-    Lack of diagnostic tools to measure the true positives, true negatives, false positives and false negatives related to intent and entity matching. 
-    Wit.ai has a nice “Stories” feature which allows you to visually represent the conversation flows, business logic invocations, context variables, and branching logic.
+
+    Lack of diagnostic tools to measure the true positives, true negatives, false positives and false negatives related to intent and       entity matching. 
+    Wit.ai has a nice “Stories” feature which allows you to visually represent the conversation flows, business logic invocations,           context variables, and branching logic.
     
 3) Wit.ai
+
 *Advantages :*
+
     Easier to develop applications using the developer UI. 
-    Smarter and can learn alternative phrases which can trigger intents and alternative entities. Allows you to manage context parameters through the UI. 
+    Smarter and can learn alternative phrases which can trigger intents and alternative entities. Allows you to manage context               parameters through the UI. 
     Easily add entities by highlighting them in the sample utterances through the UI.
+    
 *Disadvantages :*
-    Does NOT have the required slot/parameter feature so you have to invoke business logic after every interaction which gathers slot/parameter information from the user to gather any missing information which was not spoken by the user. 
+
+    Does NOT have the required slot/parameter feature so you have to invoke business logic after every interaction which gathers             slot/parameter information from the user to gather any missing information which was not spoken by the user. 
     Limited predefined reusable domains of global skills. 
     
 When compared with the above three tools, Dialogflow gives the best of everything, as it is easier to implement, supports easy integration, the "stories" feature can be implemented by using RASA, and we need not invoke business logic each time.
 
 ## What is submitted in this file?
+
 **Dialogflow zip file** to the Agent - iRaBot
+
 **Readme.md file**
+
 **Video** showing the working of the bot
+
 **Portfolio** with detailed explanations 
+
 Some **screenshots** for reference 
 
 ## References 
-https://medium.com/@abraham.kang/understanding-the-differences-between-alexa-api-ai-wit-ai-and-luis-cortana-2404ece0977c
+
 https://towardsdatascience.com/building-a-conversational-chatbot-for-slack-using-rasa-and-python-part-1-bca5cc75d32f
-https://dialogflow.com/docs/getting-started
+
+https://towardsdatascience.com/building-a-conversational-chatbot-for-slack-using-rasa-and-python-part-2-ce7233f2e9e7
+
+## Authors
+Uthsav Shetty
+Vishaka Varma
 
